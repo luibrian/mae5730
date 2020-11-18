@@ -1,0 +1,32 @@
+%Brian Lui
+%bl569
+%MAE5730
+
+clear all;
+close all;
+
+%Number 27- Inverted pendulum with Shaking pendulum
+%Uniform stick with length el is connected to a hinge at its lower end. 
+%That hind is shaking up and down with a specified acceleration a(t).
+
+p.m = 1;                %Mass of pendulum
+p.el = 10;              %Length of the pendulum
+p.d = p.el/2;           %Length from base to CM of pendulum
+p.g = 9.8;              %Gravity
+p.omega = 500;          %Frequency of base oscillation
+p.h = 0.1;              %Amplitude of base oscillation
+I_G = ;                 %moment of inertia
+
+
+%Time
+dur = 10;
+npoints = 1001;
+tspan = linspace(0, dur, npoints);
+
+%Initial Conditions
+
+
+function zDot = rhs(z, p);
+    m = p.m; el = 
+end
+
